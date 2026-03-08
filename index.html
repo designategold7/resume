@@ -133,7 +133,8 @@
                     <a href="https://www.github.com/designategold7" target="_blank" class="p-3 bg-slate-800 rounded-xl hover:bg-slate-700 hover:text-gold-400 transition-colors border border-slate-700 hover:border-gold-500/50">
                         <i data-lucide="github" class="w-6 h-6"></i>
                     </a>
-                    <a href="mailto:pokebayoufarmsllc@gmail.com" class="px-6 py-3 bg-gold-500 text-slate-900 font-bold rounded-xl hover:bg-gold-400 transition-colors flex items-center gap-2 shadow-lg shadow-gold-500/20">
+                    <!-- Updated Mailto Link -->
+                    <a href="mailto:pokebayoufarmsLLC@gmail.com" class="px-6 py-3 bg-gold-500 text-slate-900 font-bold rounded-xl hover:bg-gold-400 transition-colors flex items-center gap-2 shadow-lg shadow-gold-500/20">
                         <i data-lucide="zap" class="w-5 h-5"></i> Initiate Project
                     </a>
                 </div>
@@ -155,7 +156,7 @@
             <!-- Terminal Body -->
             <div class="p-4 flex-1 overflow-y-auto terminal-scroll" id="terminal-body">
                 <div class="mb-2 text-slate-400">
-                    designategold7 terminal v2.0.0<br>
+                    designategold7 terminal v2.1.0<br>
                     Type <span class="text-gold-400">'help'</span> to see available commands.
                 </div>
                 <!-- Output will be injected here -->
@@ -185,29 +186,14 @@
                 <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">Rust</span>
                 <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">Go</span>
                 <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">C++</span>
-                <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">Java</span>
+                <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">Lua</span>
                 <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">SQL/NoSQL</span>
                 <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">AWS/GCP</span>
-                <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">React/Vue</span>
                 <span class="px-3 py-1.5 bg-slate-800/80 rounded-lg text-sm border border-slate-700 hover:border-gold-500/50 transition-colors text-slate-300">Docker/K8s</span>
             </div>
         </div>
 
-        <!-- 4. Stat Card: Currently Building -->
-        <div class="bento-card rounded-3xl p-6 flex flex-col justify-between col-span-1 md:col-span-2 lg:col-span-1">
-            <div class="flex items-center gap-2 mb-4">
-                <div class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></div>
-                <span class="text-xs font-mono text-gold-400">ACTIVE DEPLOYMENT</span>
-            </div>
-            <div>
-                <h3 class="text-xl font-bold mb-2">Arkansas Literacy Engine</h3>
-                <p class="text-sm text-slate-400 leading-relaxed">
-                    Developing critical educational infrastructure funded by the AEDC grant.
-                </p>
-            </div>
-        </div>
-
-        <!-- 5. Location Context -->
+        <!-- 4. Location Context -->
         <div class="bento-card rounded-3xl p-6 flex items-center justify-center text-center relative overflow-hidden">
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gold-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
             <div class="z-10">
@@ -218,10 +204,9 @@
             <i data-lucide="globe-2" class="absolute -right-4 -bottom-4 w-24 h-24 text-slate-800/50 -z-0"></i>
         </div>
 
-        <!-- 6. Featured Project Card (Spans 2 cols) -->
+        <!-- 5. Featured Project Card: AEDC (Spans 2 cols) -->
         <div class="bento-card rounded-3xl p-6 md:col-span-2 flex flex-col sm:flex-row gap-6 items-center group">
             <div class="w-full sm:w-1/3 h-36 rounded-2xl bg-slate-900 relative overflow-hidden border border-slate-700 flex items-center justify-center">
-                <!-- Abstract Project Image Placeholder -->
                 <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-950"></div>
                 <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.8)_0,transparent_50%)]"></div>
                 <i data-lucide="book-open" class="z-10 w-12 h-12 text-gold-500 group-hover:scale-110 transition-transform duration-500"></i>
@@ -230,7 +215,7 @@
                 <div class="flex justify-between items-start mb-2">
                     <h3 class="text-xl font-bold text-slate-100 group-hover:text-gold-400 transition-colors">Arkansas Literacy Engine</h3>
                     <div class="flex gap-2">
-                        <span class="p-1.5 bg-slate-800 rounded-md border border-slate-700 hover:border-gold-500 transition-colors cursor-pointer"><i data-lucide="shield-check" class="w-4 h-4 text-gold-400"></i></span>
+                        <span class="p-1.5 bg-slate-800 rounded-md border border-slate-700 hover:border-gold-500 transition-colors cursor-pointer" title="Active Deployment"><i data-lucide="shield-check" class="w-4 h-4 text-gold-400"></i></span>
                     </div>
                 </div>
                 <p class="text-sm text-slate-400 mb-4 leading-relaxed">
@@ -239,8 +224,61 @@
                 <div class="flex flex-wrap gap-2">
                     <span class="text-xs font-mono text-gold-300 bg-gold-900/30 border border-gold-500/20 px-2 py-1 rounded">Enterprise Architecture</span>
                     <span class="text-xs font-mono text-gold-300 bg-gold-900/30 border border-gold-500/20 px-2 py-1 rounded">Data Pipelines</span>
-                    <span class="text-xs font-mono text-gold-300 bg-gold-900/30 border border-gold-500/20 px-2 py-1 rounded">AEDC Grant</span>
                 </div>
+            </div>
+        </div>
+
+        <!-- 6. Game Server Architecture (FiveM Microservices) - Spans 2 cols -->
+        <div class="bento-card rounded-3xl p-6 flex flex-col justify-between group md:col-span-2 lg:col-span-2">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="p-2 bg-slate-800 rounded-lg border border-slate-700 group-hover:border-gold-500 transition-colors">
+                    <i data-lucide="gamepad-2" class="w-5 h-5 text-gold-400 group-hover:rotate-12 transition-transform"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-200 text-lg">High-Concurrency Ecosystems</h3>
+                    <span class="text-xs font-mono text-gold-400">LUA / ESX FRAMEWORK</span>
+                </div>
+            </div>
+            <p class="text-sm text-slate-400 mb-4">
+                Engineering event-driven, networked microservices for FiveM platforms, focusing on real-time state synchronization across distributed clients.
+            </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-auto">
+                <!-- Project: CIDrecords -->
+                <a href="https://github.com/designategold7/CIDrecords" target="_blank" class="p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-gold-500/50 transition-colors group/link flex flex-col gap-1">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-slate-200 group-hover/link:text-gold-400 transition-colors">CIDrecords</span>
+                        <i data-lucide="database" class="w-4 h-4 text-slate-500 group-hover/link:text-gold-400"></i>
+                    </div>
+                    <span class="text-xs text-slate-400">Relational Database Management Interface</span>
+                </a>
+                
+                <!-- Project: dpsfiretoneout -->
+                <a href="https://github.com/designategold7/dpsfiretoneout" target="_blank" class="p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-gold-500/50 transition-colors group/link flex flex-col gap-1">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-slate-200 group-hover/link:text-gold-400 transition-colors">dpsfiretoneout</span>
+                        <i data-lucide="radio" class="w-4 h-4 text-slate-500 group-hover/link:text-gold-400"></i>
+                    </div>
+                    <span class="text-xs text-slate-400">Event-Driven Audio Broadcasting System</span>
+                </a>
+
+                <!-- Project: esx_cidwire -->
+                <a href="https://github.com/designategold7/esx_cidwire" target="_blank" class="p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-gold-500/50 transition-colors group/link flex flex-col gap-1">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-slate-200 group-hover/link:text-gold-400 transition-colors">esx_cidwire</span>
+                        <i data-lucide="network" class="w-4 h-4 text-slate-500 group-hover/link:text-gold-400"></i>
+                    </div>
+                    <span class="text-xs text-slate-400">Networked Covert Communications Module</span>
+                </a>
+
+                <!-- Project: esx_projector -->
+                <a href="https://github.com/designategold7/esx_projector" target="_blank" class="p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-gold-500/50 transition-colors group/link flex flex-col gap-1">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-slate-200 group-hover/link:text-gold-400 transition-colors">esx_projector</span>
+                        <i data-lucide="monitor-play" class="w-4 h-4 text-slate-500 group-hover/link:text-gold-400"></i>
+                    </div>
+                    <span class="text-xs text-slate-400">3D Raycasting & Entity Rendering Engine</span>
+                </a>
             </div>
         </div>
 
@@ -255,6 +293,28 @@
     <script>
         // Initialize Icons
         lucide.createIcons();
+
+        // Terminal Commands Database
+        const commands = {
+            'help': `Available operations:<br>
+                <span class="text-gold-400">whoami</span>   - Display identity payload<br>
+                <span class="text-gold-400">stack</span>    - Query technical capabilities<br>
+                <span class="text-gold-400">status</span>   - Current active deployment<br>
+                <span class="text-gold-400">fivem</span>    - Access Lua microservices<br>
+                <span class="text-gold-400">contact</span>  - Initiate secure communications<br>
+                <span class="text-gold-400">clear</span>    - Flush terminal buffer<br>
+                <span class="text-gold-400">sudo</span>     - Attempt privilege escalation`,
+            'whoami': `designategold7: Language-agnostic Full Stack Engineer. I specialize in taking complex, nebulous requirements and translating them into robust, highly-available systems.`,
+            'stack': `Primary Directive: Use the right tool for the job. No religious attachment to frameworks.<br>Familiar Syntax: Python, TS/JS, Rust, Go, C++, Java, C#, Lua.<br>Ecosystems: React, Node, SQL/NoSQL, AWS, Docker, K8s.<br><span class="text-slate-500">Note: If a language exists, I can read the docs and ship production code in it.</span>`,
+            'status': `[ACTIVE] Arkansas Literacy Engine.<br>Funded by: Arkansas Economic Development Commission (AEDC).<br>Scope: State-wide infrastructure development.`,
+            'fivem': `Loading Lua subsystems...<br>I engineer high-concurrency, event-driven multiplayer architectures for the FiveM platform. These scripts handle real-time state synchronization across distributed clients.<br>
+            - <span class="text-gold-400">CIDrecords</span>: Relational Database Interface<br>
+            - <span class="text-gold-400">dpsfiretoneout</span>: Event-Driven Audio Broadcasting<br>
+            - <span class="text-gold-400">esx_cidwire</span>: Networked Communications<br>
+            - <span class="text-gold-400">esx_projector</span>: 3D Entity Rendering`,
+            'contact': `Email: <a href="mailto:pokebayoufarmsLLC@gmail.com" class="text-gold-400 hover:underline">pokebayoufarmsLLC@gmail.com</a><br>GitHub: github.com/designategold7`,
+            'sudo': `<span class="text-red-400">Security alert: Unauthorized escalation attempt logged. Nice try.</span>`
+        };
 
         // Dynamic GitHub Data Fetch (The Polyglot Flex)
         async function fetchGitHubStats() {
@@ -287,22 +347,6 @@
         const terminalInput = document.getElementById('terminal-input');
         const terminalOutput = document.getElementById('terminal-output');
         const terminalBody = document.getElementById('terminal-body');
-
-        // Terminal Commands Database
-        const commands = {
-            'help': `Available operations:<br>
-                <span class="text-gold-400">whoami</span>   - Display identity payload<br>
-                <span class="text-gold-400">stack</span>    - Query technical capabilities<br>
-                <span class="text-gold-400">status</span>   - Current active deployment<br>
-                <span class="text-gold-400">github</span>   - Fetch repository link<br>
-                <span class="text-gold-400">clear</span>    - Flush terminal buffer<br>
-                <span class="text-gold-400">sudo</span>     - Attempt privilege escalation`,
-            'whoami': `designategold7: Language-agnostic Full Stack Engineer. I specialize in taking complex, nebulous requirements and translating them into robust, highly-available systems.`,
-            'stack': `Primary Directive: Use the right tool for the job. No religious attachment to frameworks.<br>Familiar Syntax: Python, TS/JS, Rust, Go, C++, Java, C#.<br>Ecosystems: React, Node, SQL/NoSQL, AWS, Docker, K8s.<br><span class="text-slate-500">Note: If a language exists, I can read the docs and ship production code in it.</span>`,
-            'status': `[ACTIVE] Arkansas Literacy Engine.<br>Funded by: Arkansas Economic Development Commission (AEDC).<br>Scope: State-wide infrastructure development.`,
-            'github': `Initializing secure connection...<br>URL: <a href="https://www.github.com/designategold7" target="_blank" class="text-gold-400 hover:underline">https://www.github.com/designategold7</a>`,
-            'sudo': `<span class="text-red-400">Security alert: Unauthorized escalation attempt logged. Nice try.</span>`
-        };
 
         // Keep focus on input when clicking terminal
         document.getElementById('terminal-body').addEventListener('click', () => {
